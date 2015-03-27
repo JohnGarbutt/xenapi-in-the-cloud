@@ -58,6 +58,8 @@ Copy the files from the `scripts/` directory to that directory:
 
 And execute that script with the following parameters:
 
+    APPLIANCE_URL="http://downloads.vmd.citrix.com/OpenStack/openstack-xenapi-testing-appliance.xva"
+    APPLIANCE_NAME_LABEL="openstack-xenapi-testing-appliance"
     ssh \
         $SSH_PARAMS \
         root@$IP bash /opt/xenapi-in-the-cloud/convert_node_to_xenserver.sh \
