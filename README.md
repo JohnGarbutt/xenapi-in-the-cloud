@@ -60,6 +60,8 @@ And execute that script with the following parameters:
 
     APPLIANCE_URL="http://downloads.vmd.citrix.com/OpenStack/openstack-xenapi-testing-appliance.xva"
     APPLIANCE_NAME_LABEL="openstack-xenapi-testing-appliance"
+    APPLIANCE_URL="http://downloads.vmd.citrix.com/OpenStack/devstack-2015_01_21.xva"
+    APPLIANCE_NAME_LABEL="devstack-2015_01_21"
     ssh \
         $SSH_PARAMS \
         root@$IP bash /opt/xenapi-in-the-cloud/convert_node_to_xenserver.sh \
